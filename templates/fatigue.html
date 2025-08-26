@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatigue Monitoring</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Single Prop Aviation Safety</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('fatigue') }}">Fatigue Monitoring</a></li>
+                <li><a href="{{ url_for('summary') }}">Project Summary</a></li>
+                <li><a href="{{ url_for('data_table') }}">Biometric Data</a></li> <!-- Updated link -->
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Overview</h2>
+        <p>Details about the fatigue monitoring system go here...</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; PRJ 3X1 Aviation Safety Group 2 Project</p>
+    </footer>
+</body>
+</html>

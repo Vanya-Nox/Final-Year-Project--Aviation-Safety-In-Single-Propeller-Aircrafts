@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Single Prop Aviation Safety</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('fatigue') }}">Fatigue Monitoring</a></li>
+                <li><a href="{{ url_for('summary') }}">Project Summary</a></li> 
+                <li><a href="{{ url_for('data_table') }}">Biometric Data</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Project Summary</h2>
+        <p>This project aims to enhance aviation safety by monitoring pilot fatigue and integrating biometric data...</p>
+        <h3>Key Objectives</h3>
+        <ul>
+            <li>Develop a biometric monitoring system.</li>
+            <li>Enhance pilot training and emergency response.</li>
+            <li>Improve maintenance protocols and pre-flight checklists.</li>
+            <li>Promote a safety culture within aviation.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; PRJ 3X1 Aviation Safety Group 2 Project</p>
+    </footer>
+</body>
+</html>
